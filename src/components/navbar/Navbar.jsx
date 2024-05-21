@@ -5,6 +5,8 @@ import SearchIcon from '../../assets/SearchIcon'
 import MessagesIcon from "../../assets/MessageIcon"
 import NotificationsIcon from "../../assets/NotificationsIcon"
 import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom'
+import MyNetworkIcon from "../../assets/MyNetworkIcon"
+import JobsIcon from '../../assets/JobsIcon'
 
 
 const Navbar = () => {
@@ -13,6 +15,7 @@ const Navbar = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const [queryValues, setQueryValues] = useState([]);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const handleSearchInput = (e) => {
     setSearchValue(e.target.value)
@@ -81,6 +84,15 @@ const Navbar = () => {
     }
   }, [location.search])
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
 
   return (
     <div className='flex flex-row dark-mode p-[10px] justify-between items-center'>
@@ -88,8 +100,8 @@ const Navbar = () => {
         <span className='cursor-pointer' onClick={handleHomeClick}>
         <Logo fill={"white"} />
         </span>
-        <span id='network'>My Network</span>
-        <span id='jobs'>Jobs</span>
+        {isMobile ? <MyNetworkIcon /> : <span id='network'>My Network</span>}
+        {isMobile ? <JobsIcon /> : <span id='jobs'>Jobs</span>}
       </div>
       <div className='flex items-center justify-self-center min-w-[30%]'>
         <input type="search" id='SearchInput' className='bg-transparent border-[1px] border-[rgb(103,103,107)] rounded-l-md w-full focus:border-[rgb(161,114,247)] focus:border-[2px] outline-none pl-[10px] pt-[5px] pb-[5px] pr-[10px]' placeholder='Search' onChange={handleSearchInput} onKeyDown={handleInputSubmit} />
