@@ -3,7 +3,7 @@ import './style.css'
 
 const ProgressBar = () => {
   return (
-    <div className="circular-progress">
+    <div id='progressbar' className="hidden circular-progress absolute z-30 top-[50%] left-[50%]">
       <div className="inner"></div>
       <div className="outer"></div>
     </div>

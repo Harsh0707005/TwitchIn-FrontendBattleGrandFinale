@@ -31,7 +31,7 @@ const Navbar = () => {
     searchResults.innerHTML = ""
     if (qValue) {
       const url = `http://localhost:3000/api?q=${qValue}`;
-
+      progressbar.style.display="block"
       fetch(url, {
         method: 'GET',
       })
@@ -58,7 +58,7 @@ const Navbar = () => {
             try {
               imageURL = item["image"]["attributes"][0]["detailData"]["nonEntityProfilePicture"]["vectorImage"]["artifacts"][0]["fileIdentifyingUrlPathSegment"]
             } catch (e) { }
-            console.log(imageURL)
+            // console.log(imageURL)
             if (!(profileURL == undefined)) {
               let result = `<div class="text-white flex flex-row items-start p-10px cursor-pointer w-[60%] gap-[10px]">
             <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : "/src/assets/placeholderPerson.png"} >
@@ -75,7 +75,7 @@ const Navbar = () => {
               })
             }
           });
-
+          progressbar.style.display="none"
         })
         .catch(error => console.error('Error:', error));
     }
