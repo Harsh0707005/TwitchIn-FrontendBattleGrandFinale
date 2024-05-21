@@ -18,17 +18,60 @@ const Navbar = () => {
     setSearchValue(e.target.value)
   }
   const handleInputSubmit = (e) => {
-    if(e.key=="Enter"){
+    if (e.key == "Enter") {
       navigateTo(`/search?q=${searchValue}`)
     }
   }
 
-  useEffect(()=>{
-    const params = [];
-    queryParams.forEach((value, key) => {
-      params.push({ key, value });
-    });
-    console.log(params)
+  useEffect(() => {
+    const qValue = queryParams.get('q');
+    if (qValue) {
+      const url = `http://localhost:3000/api?q=${qValue}`;
+
+      fetch(url, {
+        method: 'GET',
+      })
+        .then(response => response.json())
+        .then(data => {
+          // console.log(data["included"]);
+          data["included"].forEach((item, index) => {
+            var name, title, secTitle, experience, profileURL, imageURL = ""
+            try {
+              name = item["title"]["text"]
+            } catch (e) { }
+            try {
+              title = item["primarySubtitle"]["text"];
+            } catch (e) { }
+            try {
+              secTitle = item["secondarySubtitle"]["text"];
+            } catch (e) { }
+            try {
+              experience = item["insightsResolutionResults"][0]["simpleInsight"]["title"]["text"]
+            } catch (e) { }
+            try {
+              profileURL = item["navigationUrl"]
+            } catch (e) { }
+            try {
+              imageURL = item["image"]["attributes"][0]["detailData"]["nonEntityProfilePicture"]["vectorImage"]["artifacts"][0]["fileIdentifyingUrlPathSegment"]
+            } catch (e) { }
+            console.log(imageURL)
+            if (!(profileURL == undefined)) {
+              let result = `<div class="text-white flex flex-row items-center p-10px">
+            <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : "/src/assets/placeholderPerson.png"} >
+            <div class="flex flex-col">
+            <span>${name != undefined ? name : ""}</span>
+            <span>${title != undefined ? title : ""}</span>
+            <span>${secTitle != undefined ? secTitle : ""}</span>
+            <span>${experience != undefined ? experience : ""}</span>
+            </div>
+            </div>`
+              searchResults.insertAdjacentHTML("beforeend", result)
+            }
+          });
+
+        })
+        .catch(error => console.error('Error:', error));
+    }
   }, [location.search])
 
 
@@ -40,9 +83,9 @@ const Navbar = () => {
         <span>Jobs</span>
       </div>
       <div className='flex items-center justify-self-center min-w-[30%]'>
-        <input type="search" id='SearchInput' className='bg-transparent border-[1px] border-[rgb(103,103,107)] rounded-l-md w-full focus:border-[rgb(161,114,247)] focus:border-[2px] outline-none pl-[10px] pt-[5px] pb-[5px] pr-[10px]' placeholder='Search' onChange={handleSearchInput} onKeyDown={handleInputSubmit}/>
+        <input type="search" id='SearchInput' className='bg-transparent border-[1px] border-[rgb(103,103,107)] rounded-l-md w-full focus:border-[rgb(161,114,247)] focus:border-[2px] outline-none pl-[10px] pt-[5px] pb-[5px] pr-[10px]' placeholder='Search' onChange={handleSearchInput} onKeyDown={handleInputSubmit} />
         <span className='bg-[rgb(46,46,53)] h-full flex items-center rounded-r-md p-[9px]'>
-          
+
           <SearchIcon fill={"white"} />
         </span>
       </div>

@@ -1,3 +1,244 @@
+[{
+    "template": "HERO_ENTITY",
+    "actorNavigationContext": null,
+    "bserpEntityNavigationalUrl": "https://www.linkedin.com/search/results/all/?keywords=Harsh%20Master&origin=ENTITY_SEARCH_HOME_HISTORY&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADfAxvUBR8vOeGQJJ400N4VhpzBmuuvF4OQ",
+    "trackingUrn": "urn:li:member:935380725",
+    "controlName": "view_profile_people_kcard",
+    "interstitialComponent": null,
+    "primaryActions": [],
+    "entityCustomTrackingInfo": {
+        "memberDistance": "SELF",
+        "privacySettingsInjectionHolder": null,
+        "$recipeTypes": [
+            "com.linkedin.4caf791202c7b71e3874d4551f078f32"
+        ],
+        "nameMatch": true,
+        "$type": "com.linkedin.voyager.dash.search.EntityCustomTrackingInfo"
+    },
+    "badgeData": null,
+    "title": {
+        "textDirection": "FIRST_STRONG",
+        "text": "Harsh Master",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": "View Harsh Master’s profile",
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "overflowActions": [],
+    "searchActionType": null,
+    "actorInsights": [],
+    "insightsResolutionResults": [
+        {
+            "jobPostingInsight": null,
+            "relationshipsInsight": null,
+            "serviceProviderRatingInsight": null,
+            "simpleInsight": {
+                "image": {
+                    "attributes": [
+                        {
+                            "scalingType": null,
+                            "detailData": {
+                                "profilePictureWithoutFrame": null,
+                                "profilePictureWithRingStatus": null,
+                                "companyLogo": null,
+                                "icon": "IC_COMPANY_16DP",
+                                "systemImage": null,
+                                "nonEntityGroupLogo": null,
+                                "vectorImage": null,
+                                "nonEntityProfessionalEventLogo": null,
+                                "profilePicture": null,
+                                "imageUrl": null,
+                                "professionalEventLogo": null,
+                                "nonEntityCompanyLogo": null,
+                                "nonEntitySchoolLogo": null,
+                                "groupLogo": null,
+                                "schoolLogo": null,
+                                "ghostImage": null,
+                                "nonEntityProfilePicture": null
+                            },
+                            "tintColor": null,
+                            "$recipeTypes": [
+                                "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                            ],
+                            "tapTargets": [],
+                            "displayAspectRatio": null,
+                            "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                        }
+                    ],
+                    "editableAccessibilityText": false,
+                    "actionTarget": null,
+                    "accessibilityTextAttributes": [],
+                    "totalCount": null,
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+                },
+                "controlName": "people_kcard_view_profile",
+                "navigationUrl": null,
+                "title": {
+                    "textDirection": "USER_LOCALE",
+                    "text": "Experience: GeeksforGeeks",
+                    "attributesV2": [],
+                    "accessibilityTextAttributesV2": [],
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                },
+                "$recipeTypes": [
+                    "com.linkedin.bd9a707a5b119c1f331373113f57344a"
+                ],
+                "$type": "com.linkedin.voyager.dash.search.SimpleInsight",
+                "searchActionType": "VIEW_ENTITY",
+                "subtitleMaxNumLines": 1,
+                "titleFontSize": null,
+                "subtitle": null,
+                "subtitleFontSize": null,
+                "titleMaxNumLines": 1
+            },
+            "jobPostingFooterInsight": null,
+            "socialActivityCountsInsight": null,
+            "labelsInsight": null,
+            "premiumCustomCtaInsight": null
+        }
+    ],
+    "badgeIcon": null,
+    "showAdditionalCluster": true,
+    "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:fsd_profile:ACoAADfAxvUBR8vOeGQJJ400N4VhpzBmuuvF4OQ,SEARCH_SRP,KNOWLEDGE_CARD)",
+    "ringStatus": null,
+    "primarySubtitle": {
+        "textDirection": "USER_LOCALE",
+        "text": "Technophile | GearHead | Python & Android Programmer | CyberSec Learner | Data Science @ IIT Madras",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": null,
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "badgeText": {
+        "textDirection": "USER_LOCALE",
+        "text": "• You",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": "Self",
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "trackingId": "vFEJQ7sRTWO+4cDh1kgsUg==",
+    "addEntityToSearchHistory": true,
+    "actorNavigationUrl": null,
+    "summary": null,
+    "image": {
+        "attributes": [
+            {
+                "scalingType": null,
+                "detailData": {
+                    "profilePictureWithoutFrame": null,
+                    "profilePictureWithRingStatus": null,
+                    "companyLogo": null,
+                    "icon": null,
+                    "systemImage": null,
+                    "nonEntityGroupLogo": null,
+                    "vectorImage": null,
+                    "nonEntityProfessionalEventLogo": null,
+                    "profilePicture": null,
+                    "imageUrl": null,
+                    "professionalEventLogo": null,
+                    "nonEntityCompanyLogo": null,
+                    "nonEntitySchoolLogo": null,
+                    "groupLogo": null,
+                    "schoolLogo": null,
+                    "ghostImage": null,
+                    "nonEntityProfilePicture": {
+                        "*profile": "urn:li:fsd_profile:ACoAADfAxvUBR8vOeGQJJ400N4VhpzBmuuvF4OQ",
+                        "ringStatus": null,
+                        "$recipeTypes": [
+                            "com.linkedin.4b009c1d6ea192a94bda77fb9ace3a7d"
+                        ],
+                        "vectorImage": {
+                            "digitalmediaAsset": null,
+                            "attribution": null,
+                            "c2paManifestData": null,
+                            "$recipeTypes": [
+                                "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                            ],
+                            "artifacts": [
+                                {
+                                    "width": 100,
+                                    "$recipeTypes": [
+                                        "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                    ],
+                                    "fileIdentifyingUrlPathSegment": "https://media.licdn.com/dms/image/D4D03AQE9YoMLAkd0Vw/profile-displayphoto-shrink_100_100/0/1699445417397?e=1721865600&v=beta&t=4_IM3gkiHXPQs0sd0KtZOXILok_onRa8VnAWGUBDaMU",
+                                    "expiresAt": 1721865600000,
+                                    "height": 100,
+                                    "$type": "com.linkedin.common.VectorArtifact"
+                                }
+                            ],
+                            "rootUrl": "",
+                            "$type": "com.linkedin.common.VectorImage"
+                        },
+                        "$type": "com.linkedin.voyager.dash.common.image.NonEntityProfilePicture"
+                    }
+                },
+                "tintColor": null,
+                "$recipeTypes": [
+                    "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                ],
+                "tapTargets": [],
+                "displayAspectRatio": null,
+                "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+            }
+        ],
+        "editableAccessibilityText": false,
+        "actionTarget": null,
+        "accessibilityTextAttributes": [],
+        "totalCount": null,
+        "accessibilityText": "Harsh Master",
+        "$recipeTypes": [
+            "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+    },
+    "lazyLoadedActions": null,
+    "secondarySubtitle": {
+        "textDirection": "USER_LOCALE",
+        "text": "Surat",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": null,
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "navigationUrl": "https://www.linkedin.com/in/harshmaster?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADfAxvUBR8vOeGQJJ400N4VhpzBmuuvF4OQ",
+    "entityEmbeddedObject": null,
+    "unreadIndicatorDetails": null,
+    "$recipeTypes": [
+        "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109"
+    ],
+    "target": null,
+    "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+    "actorTrackingUrn": null,
+    "navigationContext": {
+        "openExternally": false,
+        "$recipeTypes": [
+            "com.linkedin.55ee9afd4182671fe7e271f615659525"
+        ],
+        "url": "https://www.linkedin.com/in/harshmaster?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADfAxvUBR8vOeGQJJ400N4VhpzBmuuvF4OQ",
+        "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+    }
+},
 {
     "template": "UNIVERSAL",
     "actorNavigationContext": null,
@@ -408,4 +649,4 @@
         "url": "https://www.linkedin.com/in/sandeep-jain-?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMV_F0ByAUKSMrE2sxiFy5fdpP7404FXOY",
         "$type": "com.linkedin.voyager.dash.search.NavigationContext"
     }
-}
+}]
