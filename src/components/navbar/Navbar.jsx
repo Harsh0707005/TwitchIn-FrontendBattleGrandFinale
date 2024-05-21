@@ -30,7 +30,7 @@ const Navbar = () => {
     const qValue = queryParams.get('q');
     searchResults.innerHTML = ""
     if (qValue) {
-      const url = `http://localhost:3000/api?q=${qValue}`;
+      const url = `https://twitch-in-backend.vercel.app/api?q=${qValue}`;
       progressbar.style.display="block"
       fetch(url, {
         method: 'GET',
@@ -88,8 +88,8 @@ const Navbar = () => {
         <span className='cursor-pointer' onClick={handleHomeClick}>
         <Logo fill={"white"} />
         </span>
-        <span>My Network</span>
-        <span>Jobs</span>
+        <span id='network'>My Network</span>
+        <span id='jobs'>Jobs</span>
       </div>
       <div className='flex items-center justify-self-center min-w-[30%]'>
         <input type="search" id='SearchInput' className='bg-transparent border-[1px] border-[rgb(103,103,107)] rounded-l-md w-full focus:border-[rgb(161,114,247)] focus:border-[2px] outline-none pl-[10px] pt-[5px] pb-[5px] pr-[10px]' placeholder='Search' onChange={handleSearchInput} onKeyDown={handleInputSubmit} />
