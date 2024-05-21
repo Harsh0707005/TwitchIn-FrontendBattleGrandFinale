@@ -22,9 +22,13 @@ const Navbar = () => {
       navigateTo(`/search?q=${searchValue}`)
     }
   }
+  const handleHomeClick = () => {
+    navigateTo("/")
+  }
 
   useEffect(() => {
     const qValue = queryParams.get('q');
+    searchResults.innerHTML = ""
     if (qValue) {
       const url = `http://localhost:3000/api?q=${qValue}`;
 
@@ -56,16 +60,19 @@ const Navbar = () => {
             } catch (e) { }
             console.log(imageURL)
             if (!(profileURL == undefined)) {
-              let result = `<div class="text-white flex flex-row items-center p-10px">
+              let result = `<div class="text-white flex flex-row items-start p-10px cursor-pointer w-[60%] gap-[10px]">
             <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : "/src/assets/placeholderPerson.png"} >
             <div class="flex flex-col">
             <span>${name != undefined ? name : ""}</span>
             <span>${title != undefined ? title : ""}</span>
-            <span>${secTitle != undefined ? secTitle : ""}</span>
-            <span>${experience != undefined ? experience : ""}</span>
+            <span class="text-gray-400">${secTitle != undefined ? secTitle : ""}</span>
+            <span class="text-gray-400">${experience != undefined ? experience : ""}</span>
             </div>
             </div>`
               searchResults.insertAdjacentHTML("beforeend", result)
+              searchResults.lastElementChild.addEventListener("click", () => {
+                window.open(profileURL, '_blank')
+              })
             }
           });
 
@@ -78,7 +85,9 @@ const Navbar = () => {
   return (
     <div className='flex flex-row dark-mode p-[10px] justify-between items-center'>
       <div className='flex flex-row gap-[20px] items-center'>
+        <span className='cursor-pointer' onClick={handleHomeClick}>
         <Logo fill={"white"} />
+        </span>
         <span>My Network</span>
         <span>Jobs</span>
       </div>

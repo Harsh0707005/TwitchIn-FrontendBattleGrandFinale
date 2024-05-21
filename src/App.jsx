@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <SideBar/>
-      <SearchResult/>
+      <Navbar />
+      <div className='flex flex-row'>
+        <SideBar />
+        <SearchResult/>
+      </div>
     </>
   )
 }
