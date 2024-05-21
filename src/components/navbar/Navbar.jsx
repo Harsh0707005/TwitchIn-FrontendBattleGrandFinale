@@ -12,9 +12,6 @@ const Navbar = () => {
   const handleSearchInput = (e) => {
     setSearchValue(e.target.value)
   }
-  const handleClearInput = (e) => {
-
-  }
 
   return (
     <div className='flex flex-row dark-mode p-[10px] justify-between items-center'>
@@ -24,7 +21,7 @@ const Navbar = () => {
         <span>Jobs</span>
       </div>
       <div className='flex items-center justify-self-center min-w-[30%]'>
-        <input type="search" id='SearchInput' className='bg-transparent border-[1px] border-[rgb(103,103,107)] rounded-l-md w-full focus:border-[rgb(161,114,247)] focus:border-[2px] outline-none pl-[10px] pt-[5px] pb-[5px] pr-[10px]' placeholder='Search' />
+        <input type="search" id='SearchInput' className='bg-transparent border-[1px] border-[rgb(103,103,107)] rounded-l-md w-full focus:border-[rgb(161,114,247)] focus:border-[2px] outline-none pl-[10px] pt-[5px] pb-[5px] pr-[10px]' placeholder='Search' onChange={handleSearchInput}/>
         <span className='bg-[rgb(46,46,53)] h-full flex items-center rounded-r-md p-[9px]'>
           
           <SearchIcon fill={"white"} />
