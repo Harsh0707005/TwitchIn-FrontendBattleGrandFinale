@@ -85,12 +85,16 @@ const Navbar = () => {
   }, [location.search])
 
   useEffect(() => {
+    searchIcon.addEventListener("click", ()=>{
+      navigateTo(`/search?q=${SearchInput.value}`)
+    })
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
+
   }, []);
 
 
