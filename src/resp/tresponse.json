@@ -1,0 +1,411 @@
+{
+    "template": "UNIVERSAL",
+    "actorNavigationContext": null,
+    "bserpEntityNavigationalUrl": "https://www.linkedin.com/search/results/all/?keywords=Sandeep%20Jain&origin=ENTITY_SEARCH_HOME_HISTORY&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAMV_F0ByAUKSMrE2sxiFy5fdpP7404FXOY",
+    "trackingUrn": "urn:li:member:51772509",
+    "controlName": null,
+    "interstitialComponent": null,
+    "primaryActions": [],
+    "entityCustomTrackingInfo": {
+        "memberDistance": "DISTANCE_2",
+        "privacySettingsInjectionHolder": null,
+        "$recipeTypes": [
+            "com.linkedin.4caf791202c7b71e3874d4551f078f32"
+        ],
+        "nameMatch": true,
+        "$type": "com.linkedin.voyager.dash.search.EntityCustomTrackingInfo"
+    },
+    "badgeData": null,
+    "title": {
+        "textDirection": "FIRST_STRONG",
+        "text": "Sandeep Jain",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": "View Sandeep Jain’s profile",
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "overflowActions": [],
+    "*lazyLoadedActions": "urn:li:fsd_lazyLoadedActions:(urn:li:fsd_profileActions:(ACoAAAMV_F0ByAUKSMrE2sxiFy5fdpP7404FXOY,SEARCH_STATEFUL_COMPLIMENTARY,EMPTY_CONTEXT_ENTITY_URN),PEOPLE,SEARCH_SRP)",
+    "searchActionType": null,
+    "actorInsights": [],
+    "insightsResolutionResults": [
+        {
+            "jobPostingInsight": null,
+            "relationshipsInsight": null,
+            "serviceProviderRatingInsight": null,
+            "simpleInsight": {
+                "image": {
+                    "attributes": [
+                        {
+                            "scalingType": null,
+                            "detailData": {
+                                "profilePictureWithoutFrame": null,
+                                "profilePictureWithRingStatus": null,
+                                "companyLogo": null,
+                                "icon": "IC_PEOPLE_16DP",
+                                "systemImage": null,
+                                "nonEntityGroupLogo": null,
+                                "vectorImage": null,
+                                "nonEntityProfessionalEventLogo": null,
+                                "profilePicture": null,
+                                "imageUrl": null,
+                                "professionalEventLogo": null,
+                                "nonEntityCompanyLogo": null,
+                                "nonEntitySchoolLogo": null,
+                                "groupLogo": null,
+                                "schoolLogo": null,
+                                "ghostImage": null,
+                                "nonEntityProfilePicture": null
+                            },
+                            "tintColor": null,
+                            "$recipeTypes": [
+                                "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                            ],
+                            "tapTargets": [],
+                            "displayAspectRatio": null,
+                            "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+                        }
+                    ],
+                    "editableAccessibilityText": false,
+                    "actionTarget": null,
+                    "accessibilityTextAttributes": [],
+                    "totalCount": null,
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+                },
+                "controlName": null,
+                "navigationUrl": null,
+                "title": {
+                    "textDirection": "USER_LOCALE",
+                    "text": "291K followers • Nilotpal Pramanik is a mutual connection",
+                    "attributesV2": [
+                        {
+                            "start": 17,
+                            "length": 17,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        },
+                        {
+                            "start": 17,
+                            "length": 17,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": "https://www.linkedin.com/in/ACoAACY96fABVCL6uF3L-wGixBp7U0rmVWXcYhA?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACY96fABVCL6uF3L-wGixBp7U0rmVWXcYhA",
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": null,
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        }
+                    ],
+                    "accessibilityTextAttributesV2": [],
+                    "accessibilityText": null,
+                    "$recipeTypes": [
+                        "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                },
+                "$recipeTypes": [
+                    "com.linkedin.bd9a707a5b119c1f331373113f57344a"
+                ],
+                "$type": "com.linkedin.voyager.dash.search.SimpleInsight",
+                "searchActionType": "SEE_MUTUAL_CONNECTIONS",
+                "subtitleMaxNumLines": 1,
+                "titleFontSize": null,
+                "subtitle": null,
+                "subtitleFontSize": null,
+                "titleMaxNumLines": 1
+            },
+            "jobPostingFooterInsight": null,
+            "socialActivityCountsInsight": null,
+            "labelsInsight": null,
+            "premiumCustomCtaInsight": null
+        },
+        {
+            "jobPostingInsight": null,
+            "relationshipsInsight": null,
+            "serviceProviderRatingInsight": null,
+            "simpleInsight": null,
+            "jobPostingFooterInsight": null,
+            "socialActivityCountsInsight": null,
+            "premiumCustomCtaInsight": {
+                "searchActionType": "PREMIUM_VISIT_WEBSITE",
+                "titleFontSize": "SMALL",
+                "navigationContext": {
+                    "openExternally": false,
+                    "$recipeTypes": [
+                        "com.linkedin.55ee9afd4182671fe7e271f615659525"
+                    ],
+                    "url": "https://www.geeksforgeeks.org/jobs?ref=ghm",
+                    "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+                },
+                "title": {
+                    "textDirection": "USER_LOCALE",
+                    "text": "Visit my website",
+                    "attributesV2": [
+                        {
+                            "start": 0,
+                            "length": 16,
+                            "detailData": {
+                                "jobPostingName": null,
+                                "hyperlink": null,
+                                "profileFamiliarName": null,
+                                "color": null,
+                                "companyName": null,
+                                "icon": null,
+                                "epoch": null,
+                                "systemImage": null,
+                                "textLink": null,
+                                "listItemStyle": null,
+                                "groupName": null,
+                                "hyperlinkOpenExternally": null,
+                                "listStyle": null,
+                                "profileFullName": null,
+                                "stringFieldReference": null,
+                                "learningCourseName": null,
+                                "profileMention": null,
+                                "style": "BOLD",
+                                "schoolName": null,
+                                "hashtag": null
+                            },
+                            "$recipeTypes": [
+                                "com.linkedin.b8a09c2c7547138a1c3aebdda8a94e12"
+                            ],
+                            "$type": "com.linkedin.voyager.dash.common.text.TextAttribute"
+                        }
+                    ],
+                    "accessibilityTextAttributesV2": [],
+                    "accessibilityText": "Visit my website",
+                    "$recipeTypes": [
+                        "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+                    ],
+                    "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+                },
+                "$recipeTypes": [
+                    "com.linkedin.e7255825e31731ce221bd0a581bbdd47"
+                ],
+                "titleMaxNumLines": 1,
+                "$type": "com.linkedin.voyager.dash.search.premium.PremiumCustomCtaInsight"
+            },
+            "labelsInsight": null
+        }
+    ],
+    "badgeIcon": {
+        "attributes": [
+            {
+                "scalingType": null,
+                "detailData": {
+                    "profilePictureWithoutFrame": null,
+                    "profilePictureWithRingStatus": null,
+                    "companyLogo": null,
+                    "icon": "IC_LINKEDIN_PREMIUM_GOLD_ICON_16DP",
+                    "systemImage": null,
+                    "nonEntityGroupLogo": null,
+                    "vectorImage": null,
+                    "nonEntityProfessionalEventLogo": null,
+                    "profilePicture": null,
+                    "imageUrl": null,
+                    "professionalEventLogo": null,
+                    "nonEntityCompanyLogo": null,
+                    "nonEntitySchoolLogo": null,
+                    "groupLogo": null,
+                    "schoolLogo": null,
+                    "ghostImage": null,
+                    "nonEntityProfilePicture": null
+                },
+                "tintColor": null,
+                "$recipeTypes": [
+                    "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                ],
+                "tapTargets": [],
+                "displayAspectRatio": null,
+                "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+            }
+        ],
+        "editableAccessibilityText": false,
+        "actionTarget": null,
+        "accessibilityTextAttributes": [],
+        "totalCount": null,
+        "accessibilityText": "Premium member",
+        "$recipeTypes": [
+            "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+    },
+    "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:fsd_profile:ACoAAAMV_F0ByAUKSMrE2sxiFy5fdpP7404FXOY,SEARCH_SRP,DEFAULT)",
+    "showAdditionalCluster": false,
+    "ringStatus": null,
+    "primarySubtitle": {
+        "textDirection": "USER_LOCALE",
+        "text": "Founder & CEO at GeeksforGeeks",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": null,
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "badgeText": {
+        "textDirection": "USER_LOCALE",
+        "text": "• 2nd",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": "2nd degree connection",
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "trackingId": "oguUXquoSTuk4P0HLlk+5w==",
+    "addEntityToSearchHistory": true,
+    "actorNavigationUrl": null,
+    "summary": null,
+    "image": {
+        "attributes": [
+            {
+                "scalingType": null,
+                "detailData": {
+                    "profilePictureWithoutFrame": null,
+                    "profilePictureWithRingStatus": null,
+                    "companyLogo": null,
+                    "icon": null,
+                    "systemImage": null,
+                    "nonEntityGroupLogo": null,
+                    "vectorImage": null,
+                    "nonEntityProfessionalEventLogo": null,
+                    "profilePicture": null,
+                    "imageUrl": null,
+                    "professionalEventLogo": null,
+                    "nonEntityCompanyLogo": null,
+                    "nonEntitySchoolLogo": null,
+                    "groupLogo": null,
+                    "schoolLogo": null,
+                    "ghostImage": null,
+                    "nonEntityProfilePicture": {
+                        "*profile": "urn:li:fsd_profile:ACoAAAMV_F0ByAUKSMrE2sxiFy5fdpP7404FXOY",
+                        "ringStatus": null,
+                        "$recipeTypes": [
+                            "com.linkedin.4b009c1d6ea192a94bda77fb9ace3a7d"
+                        ],
+                        "vectorImage": {
+                            "digitalmediaAsset": null,
+                            "attribution": null,
+                            "c2paManifestData": null,
+                            "$recipeTypes": [
+                                "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9"
+                            ],
+                            "artifacts": [
+                                {
+                                    "width": 100,
+                                    "$recipeTypes": [
+                                        "com.linkedin.f0f435b4425ee2990eba8f0a4d614944"
+                                    ],
+                                    "fileIdentifyingUrlPathSegment": "https://media.licdn.com/dms/image/C4D03AQGGB6CT6NqFzQ/profile-displayphoto-shrink_100_100/0/1618725077549?e=1721865600&v=beta&t=fu-dfCerMLD9tzdplZjKJDXJzOUeBXke1lMbbTaEmUs",
+                                    "expiresAt": 1721865600000,
+                                    "height": 100,
+                                    "$type": "com.linkedin.common.VectorArtifact"
+                                }
+                            ],
+                            "rootUrl": "",
+                            "$type": "com.linkedin.common.VectorImage"
+                        },
+                        "$type": "com.linkedin.voyager.dash.common.image.NonEntityProfilePicture"
+                    }
+                },
+                "tintColor": null,
+                "$recipeTypes": [
+                    "com.linkedin.eb94fbb1518f790c4545aafdf571c64e"
+                ],
+                "tapTargets": [],
+                "displayAspectRatio": null,
+                "$type": "com.linkedin.voyager.dash.common.image.ImageAttribute"
+            }
+        ],
+        "editableAccessibilityText": false,
+        "actionTarget": null,
+        "accessibilityTextAttributes": [],
+        "totalCount": null,
+        "accessibilityText": "Sandeep Jain",
+        "$recipeTypes": [
+            "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.image.ImageViewModel"
+    },
+    "secondarySubtitle": {
+        "textDirection": "USER_LOCALE",
+        "text": "Noida",
+        "attributesV2": [],
+        "accessibilityTextAttributesV2": [],
+        "accessibilityText": null,
+        "$recipeTypes": [
+            "com.linkedin.6a224ca38654a84754a1eb3e97c0f846"
+        ],
+        "$type": "com.linkedin.voyager.dash.common.text.TextViewModel"
+    },
+    "navigationUrl": "https://www.linkedin.com/in/sandeep-jain-?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMV_F0ByAUKSMrE2sxiFy5fdpP7404FXOY",
+    "entityEmbeddedObject": null,
+    "unreadIndicatorDetails": null,
+    "$recipeTypes": [
+        "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109"
+    ],
+    "target": null,
+    "$type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+    "actorTrackingUrn": null,
+    "navigationContext": {
+        "openExternally": false,
+        "$recipeTypes": [
+            "com.linkedin.55ee9afd4182671fe7e271f615659525"
+        ],
+        "url": "https://www.linkedin.com/in/sandeep-jain-?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAMV_F0ByAUKSMrE2sxiFy5fdpP7404FXOY",
+        "$type": "com.linkedin.voyager.dash.search.NavigationContext"
+    }
+}

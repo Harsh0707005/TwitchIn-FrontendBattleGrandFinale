@@ -1,0 +1,22 @@
+GET /voyager/api/graphql?variables=(start:0,origin:GLOBAL_SEARCH_HEADER,query:(keywords:sandeep%20jain,flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(ALL))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.838ad2ecdec3b0347f493f93602336e9 HTTP/2
+Host: www.linkedin.com
+Cookie: lang=v=2&lang=en-us; bcookie="v=2&385ee215-ac81-4263-80c6-815798481969"; bscookie="v=1&20240521031025650213d9-c430-428f-819f-cca98cb27695AQF7l1MIYvVl_9SmRe5gCUs4lpRqS2wV"; AMCVS_14215E3D5995C57C0A495C55%40AdobeOrg=1; li_at=AQEDATfAxvUFwC2rAAABj5khY74AAAGPvS3nvk0AkypDidyT-pq0QYgtDFDvbsAgpRSP-O1hN1KDzXS4jOaFgEWoZboZvQlcRcb_JosgkVyP5kyThrhJwkKOx3hG1wNFqZh74wzcE9Za3rgYx8xZAhBb; liap=true; JSESSIONID="ajax:8597322449642359719"; timezone=Asia/Calcutta; li_theme=light; li_theme_set=app; AMCV_14215E3D5995C57C0A495C55%40AdobeOrg=-637568504%7CMCIDTS%7C19865%7CMCMID%7C03194440652417078863681193942724709234%7CMCAAMLH-1716865858%7C12%7CMCAAMB-1716865858%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1716268258s%7CNONE%7CvVersion%7C5.1.1%7CMCCIDH%7C136999170; aam_uuid=03337716836265017973736040866425338041; li_sugr=b6be383d-b619-42ae-9f26-e19d802d1baa; _guid=99ef1a6f-2237-4039-b724-f767e9fb5409; UserMatchHistory=AQID-w7_72QCkAAAAY-ZIXoQHiFNwrs7QQ2bk2GP-X72yFZjNNhW3UcsGBf2-4_XKU_fBZhuwJ_qxUvqJhle3ajUhkR41iSPwh7we_Bms9ShR5mnBy2hPY4yuuZepNezjlmfqGW57KIS2kplhYw5jlSCcY8Qsqtz8-ZKMriFGBoOtwMWvzQhdakL2-FmxaRNjhlRYQsL_7oHOxgz8bYlsP11Ym7Xdcm-oowi_uMS55FqEotp7OK7-JGHO66tPJeCoFCMwsWxU90TsOWDTBcy4F87aO_69JLw0VHNm0Ecc56pKSdOW5g0ipDNWilBeTv_q5q76ZLBw2LWqG0HEV2jwiAv1SBZAS5Bbtp57X7DQF7ErdXWVg; AnalyticsSyncHistory=AQIQSG8DKXG6sQAAAY-ZIXoQpkMxqAcH79jO8PiUzkSIorkhyXUVRKPpujMAvduK78oD11FlhHHkZCQj0fZyMQ; dfpfpt=b4dcd841122d479aa5ae428170c684e9; lms_ads=AQEVAdHSxICC9wAAAY-ZIXsu_8dEyUvtV345SiPinpHCB6nL5EUsJqoRr3YqsoKsWbeOQji2OiUoPxaPRaECQnKSadKu1cxx; lms_analytics=AQEVAdHSxICC9wAAAY-ZIXsu_8dEyUvtV345SiPinpHCB6nL5EUsJqoRr3YqsoKsWbeOQji2OiUoPxaPRaECQnKSadKu1cxx; fptctx2=taBcrIH61PuCVH7eNCyH0K%252fD9DJ44Cptuv0RyrXgXCud1BZK3OBjgX6b3h%252ft5pc%252fSQCWkSYEMRuZL2AQJfTE8JrLC3OtmvMEx0EUaeqe1tUUJ8k1L2cDOJSqYucSsublPWhh%252f3XvVixfO5%252fBB5LkTskE6LFIfD7LgdcndV6RumELq9u35A6PhBHdLkFn33RpYp%252bdNZkac9yozZoLyI3KMboU1wdAM8wP6iajvr4LtEfZj8K%252f%252fa9DDliuwEG23%252bQIfwtEGG5db%252bObGL6hqztxMwHAqK%252bybBdl5zED0%252boVTxS8oqt69GbDmlvyJLhYh3iUb%252fNngfU1A8HZDgis6Hvbpd1Wkwo8KUiTPxd6X1B1OzE%253d; lidc="b=VB25:s=V:r=V:a=V:p=V:g=4524:u=560:x=1:i=1716261059:t=1716274294:v=2:sig=AQHkPFNADQiGfXnbUDxjz9wHRTjPpCCI"
+Sec-Ch-Ua: "Not-A.Brand";v="99", "Chromium";v="124"
+X-Li-Lang: en_US
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+X-Li-Page-Instance: urn:li:page:d_flagship3_search_srp_all;AYa8AJhIT/mH+07DDDvrLg==
+Accept: application/vnd.linkedin.normalized+json+2.1
+Csrf-Token: ajax:8597322449642359719
+X-Li-Track: {"clientVersion":"1.13.16734","mpVersion":"1.13.16734","osName":"web","timezoneOffset":5.5,"timezone":"Asia/Calcutta","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":2,"displayWidth":2940,"displayHeight":1912}
+X-Restli-Protocol-Version: 2.0.0
+X-Li-Pem-Metadata: Voyager - Search Results Page=search-results
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADfAxvUBR8vOeGQJJ400N4VhpzBmuuvF4OQ&keywords=harsh%20master&origin=RICH_QUERY_SUGGESTION&position=0&searchId=90c84e36-64fa-4a9d-8f60-e226a26f8f66&sid=(cH&spellCorrectionEnabled=false
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Priority: u=1, i
+

@@ -1,0 +1,10 @@
+.dark-mode{
+    background-color: rgb(24, 24, 27);
+    color: white;
+}
+#SearchInput::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    background-image: url('../../assets/SearchCancelLight.svg');
+    height: 30px;
+    width: 30px;
+}
