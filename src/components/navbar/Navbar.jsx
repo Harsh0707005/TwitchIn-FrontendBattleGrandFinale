@@ -64,7 +64,7 @@ const Navbar = () => {
             } catch (e) { }
             // console.log(imageURL)
             if (!(profileURL == undefined)) {
-              let result = `<div class="text-white flex flex-row items-start p-10px cursor-pointer w-[60%] gap-[10px]">
+              let result = `<div id="resItem" class="text-white flex flex-row items-start p-10px cursor-pointer max-md:w-[100%] w-[60%] gap-[10px]">
             <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : placeholder} >
             <div class="flex flex-col">
             <span>${name != undefined ? name : ""}</span>
@@ -92,6 +92,12 @@ const Navbar = () => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
+
+    if(isMobile){
+      sideDiv.style.display = "none"
+      searchResults.style.alignItems="center"
+      // document.getElementById("resItem").style.width = "100%"
+    }
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
