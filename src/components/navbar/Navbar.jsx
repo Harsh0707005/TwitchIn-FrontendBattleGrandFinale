@@ -35,6 +35,9 @@ const Navbar = () => {
     const qValue = queryParams.get('q');
     searchResults.innerHTML = ""
     if (qValue) {
+      feedDiv.style.display="none"
+      searchResults.style.display="flex"
+
       const url = `https://twitch-in-backend.vercel.app/api?q=${qValue}`;
       progressbar.style.display = "block"
       fetch(url, {
@@ -42,7 +45,6 @@ const Navbar = () => {
       })
         .then(response => response.json())
         .then(data => {
-          // console.log(data["included"]);
           data["included"].forEach((item, index) => {
             var name, title, secTitle, experience, profileURL, imageURL = ""
             try {
@@ -83,6 +85,9 @@ const Navbar = () => {
           progressbar.style.display = "none"
         })
         .catch(error => console.error('Error:', error));
+    }else{
+      feedDiv.style.display="flex"
+      searchResults.style.display="none"
     }
   }, [location.search])
 
