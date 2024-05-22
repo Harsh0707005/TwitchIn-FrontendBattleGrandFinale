@@ -97,6 +97,8 @@ const Navbar = () => {
       sideDiv.style.display = "none"
       searchResults.style.alignItems="center"
       // document.getElementById("resItem").style.width = "100%"
+    }else{
+      sideDiv.style.display = "flex"
     }
 
     window.addEventListener('resize', handleResize);
