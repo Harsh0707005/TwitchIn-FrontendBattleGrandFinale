@@ -26,7 +26,7 @@ const Feed = () => {
                     </div>
                 </div>
                 <span>GPT-4o, the AI Model That Understands It All</span>
-                <video src="/vid.mp4" controls autoPlay></video>
+                <video src="/vid.mp4" controls></video>
             </div>
             <div className='bg-gray-400 h-[1px] w-[60%]'></div>
             <div className='bg-gray-400 h-[1px] w-[60%]'></div>
