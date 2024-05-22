@@ -19,6 +19,7 @@ const Navbar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const handleSearchInput = (e) => {
+    popup.style.display = "none"
     setSearchValue(e.target.value)
   }
   const handleInputSubmit = (e) => {
@@ -35,7 +36,7 @@ const Navbar = () => {
     searchResults.innerHTML = ""
     if (qValue) {
       const url = `https://twitch-in-backend.vercel.app/api?q=${qValue}`;
-      progressbar.style.display="block"
+      progressbar.style.display = "block"
       fetch(url, {
         method: 'GET',
       })
@@ -79,25 +80,26 @@ const Navbar = () => {
               })
             }
           });
-          progressbar.style.display="none"
+          progressbar.style.display = "none"
         })
         .catch(error => console.error('Error:', error));
     }
   }, [location.search])
 
   useEffect(() => {
-    searchIcon.addEventListener("click", ()=>{
+    searchIcon.addEventListener("click", () => {
       navigateTo(`/search?q=${SearchInput.value}`)
     })
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
 
-    if(isMobile){
+    if (isMobile) {
       sideDiv.style.display = "none"
-      searchResults.style.alignItems="center"
+      searchResults.style.alignItems = "center"
+      popup.style.display = "none"
       // document.getElementById("resItem").style.width = "100%"
-    }else{
+    } else {
       sideDiv.style.display = "flex"
     }
 
@@ -111,17 +113,23 @@ const Navbar = () => {
     <div className='flex flex-row dark-mode p-[10px] justify-between items-center sticky top-0'>
       <div className='flex flex-row gap-[20px] items-center'>
         <span className='cursor-pointer' onClick={handleHomeClick}>
-        <Logo fill={"white"} />
+          <Logo fill={"white"} />
         </span>
         {isMobile ? <MyNetworkIcon /> : <span id='network'>My Network</span>}
         {isMobile ? <JobsIcon /> : <span id='jobs'>Jobs</span>}
       </div>
-      <div className='flex items-center justify-self-center min-w-[30%]'>
+      <div className='flex items-center justify-self-center min-w-[30%] relative'>
         <input type="search" id='SearchInput' className='bg-transparent border-[1px] border-[rgb(103,103,107)] rounded-l-md w-full focus:border-[rgb(161,114,247)] focus:border-[2px] outline-none pl-[10px] pt-[5px] pb-[5px] pr-[10px]' placeholder='Search' onChange={handleSearchInput} onKeyDown={handleInputSubmit} />
         <span className='bg-[rgb(46,46,53)] h-full flex items-center rounded-r-md p-[9px]'>
 
           <SearchIcon fill={"white"} />
         </span>
+
+        <div id="popup" className="message-blue absolute right-[-230px] top-[20px]">
+          <p className="message-content">Try Searching Someone!</p>
+
+        </div>
+
       </div>
       <div className='flex flex-row gap-[15px] items-center'>
         <MessagesIcon fill={"white"} />
