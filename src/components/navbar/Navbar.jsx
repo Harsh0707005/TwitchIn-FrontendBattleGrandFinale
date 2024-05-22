@@ -64,7 +64,7 @@ const Navbar = () => {
             // console.log(imageURL)
             if (!(profileURL == undefined)) {
               let result = `<div class="text-white flex flex-row items-start p-10px cursor-pointer w-[60%] gap-[10px]">
-            <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : "/src/assets/placeholderPerson.png"} >
+            <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : "/placeholderPerson.png"} >
             <div class="flex flex-col">
             <span>${name != undefined ? name : ""}</span>
             <span>${title != undefined ? title : ""}</span>
