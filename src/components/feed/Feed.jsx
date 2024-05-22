@@ -16,6 +16,7 @@ const Feed = () => {
                 <span>Absolutely..!</span>
                 <img src="/1.jpeg" className='w-full h-full' />
             </div>
+            <div className='bg-gray-400 h-[1px] w-[60%]'></div>
             <div className='flex flex-col gap-[10px] w-[60%] max-md:w-[100%]'>
                 <div className='flex flex-row items-start gap-[10px]'>
                     <img src="https://media.licdn.com/dms/image/C4E0BAQG0lRhNgYJCXw/company-logo_100_100/0/1678382029963/openai_logo?e=1724284800&v=beta&t=fE1tz0rUEBg2nfYZaM4zyRjhA2xXniWrGdW3T8AYV6E" className='rounded-full w-[40px] h-[40px]' />
@@ -28,7 +29,6 @@ const Feed = () => {
                 <span>GPT-4o, the AI Model That Understands It All</span>
                 <video src="/vid.mp4" controls></video>
             </div>
-            <div className='bg-gray-400 h-[1px] w-[60%]'></div>
             <div className='bg-gray-400 h-[1px] w-[60%]'></div>
             <div className='flex flex-col gap-[10px] w-[60%] max-md:w-[100%]'>
                 <div className='flex flex-row items-start gap-[10px]'>
