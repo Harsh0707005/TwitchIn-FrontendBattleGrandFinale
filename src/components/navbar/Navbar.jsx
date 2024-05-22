@@ -7,6 +7,7 @@ import NotificationsIcon from "../../assets/NotificationsIcon"
 import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom'
 import MyNetworkIcon from "../../assets/MyNetworkIcon"
 import JobsIcon from '../../assets/JobsIcon'
+import placeholder from '/placeholderPerson.png'
 
 
 const Navbar = () => {
@@ -64,7 +65,7 @@ const Navbar = () => {
             // console.log(imageURL)
             if (!(profileURL == undefined)) {
               let result = `<div class="text-white flex flex-row items-start p-10px cursor-pointer w-[60%] gap-[10px]">
-            <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : "/placeholderPerson.png"} >
+            <img class="rounded-full max-w-[100px]" src=${imageURL.includes("http") ? imageURL : placeholder} >
             <div class="flex flex-col">
             <span>${name != undefined ? name : ""}</span>
             <span>${title != undefined ? title : ""}</span>
