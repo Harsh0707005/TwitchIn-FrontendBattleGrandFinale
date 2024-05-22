@@ -3,7 +3,7 @@ import './style.css'
 
 const SideBar = () => {
   return (
-    <div className='bg-[rgb(31,31,35)] text-white w-[20%] h-[100vh] sticky left-0'>SideBar</div>
+    <div id='sideDiv' className='bg-[rgb(31,31,35)] text-white w-[20%] h-[calc(100vh-58px)] sticky top-[58px] overflow-hidden'>SideBar</div>
   )
 }
 

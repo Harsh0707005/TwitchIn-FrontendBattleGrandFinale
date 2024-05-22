@@ -100,7 +100,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex flex-row dark-mode p-[10px] justify-between items-center'>
+    <div className='flex flex-row dark-mode p-[10px] justify-between items-center sticky top-0'>
       <div className='flex flex-row gap-[20px] items-center'>
         <span className='cursor-pointer' onClick={handleHomeClick}>
         <Logo fill={"white"} />

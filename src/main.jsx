@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/search",
-    element: <> <ProgressBar/> <Navbar /> <div className='flex flex-row'> <SideBar /> <SearchResult /> </div> </>
+    element: <div className='flex flex-col'> <ProgressBar/> <Navbar /> <div className='flex flex-row'> <SideBar /> <SearchResult /> </div> </div>
   },
 ])
 
